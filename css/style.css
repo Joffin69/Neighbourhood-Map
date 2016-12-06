@@ -1,0 +1,61 @@
+
+#input {
+    margin: 15px 0 5px 20px;
+    width: 83%;
+    height: 35px;
+    font-size: 17px;
+    font-family: helvetica, sans-serif;
+    color: #9D9D9D;
+    border: none;
+    -webkit-box-shadow: 2px 2px 5px #9D9D9D;
+    outline: none;
+}
+
+#container {
+    position: absolute;
+    z-index: 3; 
+}
+
+#search-nav {
+    width: 240px;
+    max-height: 549px;
+    background-color: rgba(256,256,256,.9);
+    border: solid 2px blue;
+    overflow: hidden;
+	transition: 0.5s;
+}
+
+#markerlist {
+    max-height: 480px;
+    overflow: scroll;
+    margin: 0 5px;
+}
+
+#wikipedia-container{
+    position: absolute; 
+    right: 0px; 
+    z-index: 4; 
+    width:240px; 
+    max-height:540px; 
+    background-color: rgba(256,256,256,.9); 
+    color:black; 
+    overflow: hidden; 
+    border: solid 2px blue;
+    padding: 20px 0 15px 15px;
+    transition: 0.5s; 
+}
+
+.article-list {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    list-style-type: none;
+    padding:0px;
+    border-top: 1px solid #CCC;
+}
+.article:first-child {
+    border-top:none;
+}
+
