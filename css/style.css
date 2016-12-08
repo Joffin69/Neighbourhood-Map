@@ -31,31 +31,4 @@
     margin: 0 5px;
 }
 
-#wikipedia-container{
-    position: absolute; 
-    right: 0px; 
-    z-index: 4; 
-    width:240px; 
-    max-height:540px; 
-    background-color: rgba(256,256,256,.9); 
-    color:black; 
-    overflow: hidden; 
-    border: solid 2px blue;
-    padding: 20px 0 15px 15px;
-    transition: 0.5s; 
-}
-
-.article-list {
-    margin: 0;
-    padding: 0;
-}
-
-.article {
-    list-style-type: none;
-    padding:0px;
-    border-top: 1px solid #CCC;
-}
-.article:first-child {
-    border-top:none;
-}
 
